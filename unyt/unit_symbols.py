@@ -145,6 +145,79 @@ degree_celsius = degC = Unit("degC")
 degree_rankine = R = Unit("R")
 
 #
+# bits
+#
+#: kilobit
+kb = kilobit = kbit = Unit("kb")
+#: megabit
+Mb = megabit = Megabit = Mbit = Unit("Mb")
+#: gigabit
+Gb = gigabit = Gigabit = Gbit = Unit("Gb")
+#: terabit
+Tb = terabit = Terabit = Tbit = Unit("Tb")
+#: petabit
+Pb = petabit = Petabit = Pbit = Unit("Pb")
+#: exabit
+Eb = exabit = Exabit = Ebit = Unit("Eb")
+#: zettabit
+Zb = zettabit = Zettabit = Zbit = Unit("Zb")
+#: yottabit
+Yb = yottabit = Yottabit = Ybit = Unit("Yb")
+#: kibibit
+kib = kibibit = kibit = Kibit = Unit("Kib")
+#: mebibit
+Mib = mebibit = Mebibit = Mibit = Unit("Mib")
+#: gibibit
+Gib = gibibit = Gibibit = Gibit = Unit("Gib")
+#: tebibit
+Tib = tebibit = Tebibit = Tibit = Unit("Tib")
+#: pebibit
+Pib = pebibit = Pebibit = Pibit = Unit("Pib")
+#: exbibit
+Eib = exbibit = Exbibit = Eibit = Unit("Eib")
+#: zebibit
+Zib = zebibit = Zebibit = Zibit = Unit("Zib")
+#: yobibit
+Yib = yobibit = Yobibit = Yibit = Unit("Yib")
+
+#
+# bytes 
+#
+#: kilobyte
+kB = kilobyte = kbyte = kiloByte = KByte = Unit("kB")
+#: megabyte
+MB = megabyte = Megabyte = Mbyte = megaByte = MegaByte = MByte = Unit("MB")
+#: gigabyte
+GB = gigabyte = Gigabyte = Gbyte = gigaByte = GigaByte = GByte = Unit("GB")
+#: terabyte
+TB = terabyte = Terabyte = Tbyte = teraByte = TeraByte = TByte = Unit("TB")
+#: petabyte
+PB = petabyte = Petabyte = Pbyte = petaByte = PetaByte = PByte = Unit("PB")
+#: exabyte
+EB = exabyte = Exabyte = Ebyte = exaByte = ExaByte = EByte = Unit("EB")
+#: zettabyte
+ZB = zettabyte = Zettabyte = Zbyte = zettaByte = ZettaByte = ZByte = Unit("ZB")
+#: yottabyte
+YB = yottabyte = Yottabyte = Ybyte = yottaByte = YottaByte = YByte = Unit("YB")
+
+#: kibibyte
+KiB = kibibyte = Kibibyte = kibiByte = = KibiByte = KiByte = Unit("KiB")
+#: mebibyte
+MiB = mebibyte = Mebibyte = Mibyte = mebiByte = MebiByte = MiByte = Unit("MiB")
+#: gibibyte
+GiB = gibibyte = Gibibyte = Gibyte = gibiByte = GibiByte = GiByte = Unit("GiB")
+#: tebibyte
+TiB = tebibyte = Tebibyte = Tibyte = tebiByte = TebiByte = TiByte = Unit("TiB")
+#: pebibyte
+PiB = pebibyte = Pebibyte = Pibyte = pebiByte = PebiByte = PiByte = Unit("PiB")
+#: exbibyte
+EiB = exbibyte = Exbibyte = Eibyte = exbiByte = ExbiByte = EiByte = Unit("EiB")
+#: zebibyte
+ZiB = zebibyte = Zebibyte = Zibyte = zebiByte = ZebiByte = ZiByte = Unit("ZiB")
+#: yobibyte
+YiB = yobibyte = Yobibyte = Yibyte = yobiByte = YobiByte = YiByte = Unit("YiB")
+
+#
 # Misc CGS
 #
 
