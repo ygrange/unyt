@@ -158,3 +158,6 @@ kg_per_pound = 0.45359237
 pascal_per_atm = 101325.0
 m_per_inch = 0.0254
 m_per_ft = 0.3048
+
+# Information units
+bits_per_byte = 8
