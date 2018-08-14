@@ -29,12 +29,14 @@ angle = Symbol("(angle)", positive=True)
 current_mks = Symbol("(current_mks)", positive=True)
 #: luminous_intensity
 luminous_intensity = Symbol("(luminous_intensity)", positive=True)
+#: information
+information = Symbol("(information)")
 #: dimensionless
 dimensionless = sympify(1)
 
 #: A list of all of the base dimensions
 base_dimensions = [mass, length, time, temperature, angle, current_mks,
-                   dimensionless, luminous_intensity]
+                   dimensionless, luminous_intensity, information]
 
 #
 # Derived dimensions
@@ -99,6 +101,8 @@ count_intensity = count_flux / solid_angle
 luminous_flux = luminous_intensity * solid_angle
 #: luminance
 luminance = luminous_intensity / area
+#: bandwidth
+bandwidth = information / time
 
 # Gaussian electromagnetic units
 #: charge_cgs
@@ -138,7 +142,7 @@ derived_dimensions = [
     luminous_flux, area, current_cgs, charge_mks, electric_field_mks,
     magnetic_field_mks, electric_potential_cgs, electric_potential_mks,
     resistance_cgs, resistance_mks, magnetic_flux_mks, magnetic_flux_cgs,
-    luminance, spatial_frequency]
+    luminance, spatial_frequency, bandwidth]
 
 
 #: a list containing all dimensions
