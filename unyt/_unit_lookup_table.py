@@ -51,7 +51,8 @@ from unyt._physical_ratios import (
     pascal_per_atm,
     newton_mks,
     m_per_rearth,
-    m_per_rjup
+    m_per_rjup,
+    bits_per_byte
 )
 import numpy as np
 
@@ -122,6 +123,10 @@ default_unit_symbol_lut = {
     "psi": (kg_per_pound*standard_gravity_m_per_s2/m_per_inch**2,
             dimensions.pressure, 0.0, r"\rm{psi}", False),
     "smoot": (1.7018, dimensions.length, 0.0, r"\rm{smoot}", False),
+
+    # information units
+    "B" : (1.0, dimensions.information, 0.0, r"\rm{B}", False),
+    "b" : (1.0 / bits_per_byte,0.0, r"\rm{b}", False),
 
     # dimensionless stuff
     "h": (1.0, dimensions.dimensionless, 0.0, r"h", False),
@@ -242,6 +247,14 @@ unit_prefixes = {
     'a': 1e-18,  # atto
     'z': 1e-21,  # zepto
     'y': 1e-24,  # yocto
+    'Yi': 2**80, # yobi
+    'Zi': 2**70, # zebi
+    'Ei': 2**60, # exbi
+    'Pi': 2**50, # pebi
+    'Ti': 2**40, # tebi
+    'Gi': 2**30, # gibi
+    'Mi': 2**20, # mebi
+    'ki': 2**10, # kibi
 }
 
 latex_prefixes = {
@@ -256,4 +269,5 @@ default_base_units = {
     dimensions.angle: 'radian',
     dimensions.current_mks: 'A',
     dimensions.luminous_intensity: 'cd',
+    dimensions.information: 'B'
 }
